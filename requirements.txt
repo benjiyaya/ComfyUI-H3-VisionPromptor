@@ -1,0 +1,8 @@
+# ComfyUI-H3-VisionPromptor has NO external pip dependencies.
+#
+# It runs entirely on:
+#   - ComfyUI core (comfy.sd native CLIP generation stack, comfy_api.latest V3 node API)
+#   - the Python standard library
+#   - torch, which is already installed with ComfyUI
+#
+# Nothing to install here. Just drop this folder into ComfyUI/custom_nodes/ and restart.

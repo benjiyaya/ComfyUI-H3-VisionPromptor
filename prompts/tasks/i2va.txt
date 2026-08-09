@@ -1,0 +1,17 @@
+# TASK ADDENDUM — I2VA (Image-to-Video with Audio, first frame)
+
+<Picture 1> is the ACTUAL first frame of the target video at 0.00 seconds and belongs
+to [Shot 1].
+
+The final prompt MUST begin with this exact instruction line (verbatim), followed by
+one blank line before the three core fields:
+
+For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.
+
+In [Shot 1], preserve the subject identity, clothing, colors, key objects, spatial
+relationships, composition, and scene layout visible in <Picture 1>. Do not redesign
+or re-describe the still image as if it were new information.
+
+Write the motion that develops AWAY from the frame: first-frame anchor → action onset
+→ continuous development → result or reaction. The image is the starting point, not
+the topic; spend most of the timeline on what happens next.

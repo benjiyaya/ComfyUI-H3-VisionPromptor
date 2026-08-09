@@ -1,0 +1,5 @@
+{
+  "detailed_subject_scene": "Describe this image for a video-generation prompt writer. Cover: (1) every visible subject with identity anchors — hair color/length/texture, approximate age, gender presentation, wardrobe items WITH colors, signature accessories, distinguishing props; (2) scene/environment with key set-dressing and spatial layout; (3) lighting and color palette; (4) overall visual style (e.g. cinematic, live-action, 3D CG); (5) camera framing/shot size. Be precise and factual, one paragraph per image, no speculation beyond the visible.",
+  "subject_identity_only": "Describe ONLY the visible subject(s): identity anchors — hair, age, gender, wardrobe with colors, accessories, distinguishing features. One compact paragraph per image. Ignore background.",
+  "scene_only": "Describe ONLY the environment: location type, key set-dressing, spatial layout, lighting, color palette, mood-neutral factual tone. One compact paragraph per image. Ignore people."
+}

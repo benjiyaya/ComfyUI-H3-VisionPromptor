@@ -1,0 +1,17 @@
+# TASK ADDENDUM — L2VA (Last-frame to Video with Audio)
+
+<Picture 1> is the FINAL frame of the target video and belongs to the last [Shot N];
+it does NOT inherently belong to [Shot 1].
+
+The final prompt MUST begin with the alignment instruction line (end time = duration,
+formatted to exactly two decimals), followed by one blank line:
+
+How the reference pictures align with the target video — <Picture 1> (from [Shot N]) aligns with the S.SS-second mark of the target video.
+
+First INFER a plausible preceding state from the user's intent and the last frame, then
+describe how characters, objects, camera, and scene gradually approach the reference
+image: plausible preceding state → explicit action and transition path → convergence.
+
+Converge onto <Picture 1> ONLY in the final shot: earlier shots must not already show
+the final arrangement; differences narrow progressively until the video settles into
+the exact composition, positions, and lighting of <Picture 1>.

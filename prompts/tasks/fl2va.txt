@@ -1,0 +1,17 @@
+# TASK ADDENDUM — FL2VA (First-and-Last-frame to Video with Audio)
+
+<Picture 1> is the first frame (0.00 seconds) and <Picture 2> is the last frame of the
+target video. The final prompt MUST begin with the alignment instruction line (with the
+end time equal to the video duration, formatted to exactly two decimals), followed by
+one blank line:
+
+How the reference pictures align with the target video — <Picture 1> (from [Shot 1]) aligns with the 0.00-second mark of the target video; <Picture 2> (from [Shot N]) aligns with the S.SS-second mark of the target video.
+
+Favor a SINGLE shot so the model can interpolate continuously from the first frame to
+the last frame. Use multiple shots only when the user explicitly asks for them.
+
+Do not write two static image descriptions. Supply the motion path that connects them:
+first-frame state → observable intermediate changes → progressively narrowing
+differences → last-frame state. The video must LAND EXACTLY on <Picture 2> at the end:
+the final shot must settle into the exact pose, spacing, composition, camera angle,
+and lighting established by <Picture 2>.

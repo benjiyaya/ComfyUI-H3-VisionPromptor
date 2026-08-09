@@ -1,0 +1,16 @@
+# TASK ADDENDUM — T2VA (Text-to-Video with Audio)
+
+No reference image is provided. Do NOT write any image-alignment instruction line.
+Open the final prompt directly with the three core fields, in this order:
+  integrated_multimodal_description: ...
+  overall_soundscape: ...
+  non_diegetic_music: ...
+
+At the beginning of [Shot 1], state the overall style and the initial composition.
+Derive the visual style from the user's idea (e.g. cinematic, live-action, 2D-animated,
+3D CG, claymation, watercolor, vintage film). When the user gives no style, choose one
+that best fits the idea and state it explicitly.
+
+Build the complete audiovisual timeline from the text alone. You may invent scene,
+character, action, and sound details, but they must remain consistent with the user's
+intent and must never contradict the requested style or duration.

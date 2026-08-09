@@ -1,0 +1,20 @@
+# TASK ADDENDUM — Ref2VA (Full-Reference Mode)
+
+Full-reference mode outputs SIX sections in this fixed order:
+  subject_definitions: / summary: / retention_analysis: / detailed_description: /
+  overall_soundscape: / non_diegetic_music:
+
+subject_definitions: define EVERY referenced subject once, each on its own line, with
+stable identity anchors (hair, approximate age, gender, wardrobe WITH colors, signature
+accessories, distinguishing props). Use <Subject N> for reusable visible content and
+<Picture N> for concrete frame anchors; a label keeps the same meaning in ALL later sections.
+summary: one short English paragraph opening with square-bracketed task-type prefixes
+joined by " + " (e.g. [reference generation], [keyframe completion + reference generation]).
+Use only already-defined labels; introduce no new ones here.
+retention_analysis: one line per label with the EXACT fixed markers — visible content:
+fully_preserved | partially_preserved | attribute_transfer | weak_reference; audio:
+fully_copy | partially_copy | reference | weak_reference. Format per label:
+<Subject 1> (appears in [Shot 1], [Shot 2]): fully_preserved - ...
+detailed_description: 350–500 English words. Establish the style in one or two sentences
+BEFORE [Shot 1]. Insert each reference label at its first appearance, then reuse it.
+All shot, camera, speaker, <d> dialogue, <scenetrans>/<cutoff>, and on-screen-text rules from the base guide apply unchanged.
