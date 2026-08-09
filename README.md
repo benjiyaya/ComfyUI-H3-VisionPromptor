@@ -10,6 +10,9 @@ entirely by a **local VLM running on ComfyUI's native text-generation stack**
 cloud calls, no extra pip packages.
 
 ---
+<img width="1388" height="778" alt="Screenshot 2026-08-10 060901" src="https://github.com/user-attachments/assets/19badf35-e50a-4a3d-a2db-eed62163ca39" />
+
+<img width="1511" height="1003" alt="Screenshot 2026-08-10 062800" src="https://github.com/user-attachments/assets/ef923be7-4a10-4428-b047-5c631aa00275" />
 
 ## Features
 
